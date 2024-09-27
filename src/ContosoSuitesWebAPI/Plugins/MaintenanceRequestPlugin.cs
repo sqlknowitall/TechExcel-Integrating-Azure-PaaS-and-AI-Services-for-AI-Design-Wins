@@ -43,8 +43,8 @@ namespace ContosoSuitesWebAPI.Plugins
         // Exercise 5 Task 2 TODO #8: Add KernelFunction and Description descriptors to the function.
         // The function should be named "save_maintenance_request" and it should have a description
         // the accurately describes the purpose of the function, such as "Saves a maintenance request to the database for a hotel."
-        [KernelFunction("create_maintenance_request")]
-        [Description("Creates a new maintenance request for a hotel.")]
+        [KernelFunction("save_maintenance_request")]
+        [Description("save a new maintenance request for a hotel.")]
         // Exercise 5 Task 2 TODO #9: Add Kernel as the first parameter to the function.
         public async Task SaveMaintenanceRequest(Kernel kernel, MaintenanceRequest maintenanceRequest)
         {
